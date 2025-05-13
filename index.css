@@ -1,0 +1,232 @@
+/*  */
+body, html {
+    /* margin: 20px; */
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    text-align: right;
+    background-color: rgb(221, 217, 222);
+    font-family: "B Nazanin";
+}
+
+#hedr {
+    background-color: #06c70d;
+    padding: 10px;
+    text-align: center;
+    /* font-size: 2em; */
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: space-around;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #9d9d9d;
+}
+
+.title {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(55, 84, 84);
+}
+
+.title:nth-child(2) {
+    background-color: rgb(51, 209, 34);
+}
+
+footer {
+    background-color: #183257;
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+    color: rgb(54, 41, 41);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #8c8d9a6e;
+}
+
+.flex-item {
+    margin: 5px;
+    padding: 20px;
+    background-color: #e1a201;
+    color: rgb(72, 78, 106);
+    text-align: center;
+    font-size: 4em;
+    flex-direction: column;
+    font-family: "B Nazanin";
+}
+
+#fot {
+    font-size: 2em;
+    font-family: "B Nazanin";
+}
+
+#fi1 {
+    border-color: #97510a;
+}
+
+#fi2 {
+    border-color: aliceblue;
+}
+
+.ulp {
+    list-style-type: none;
+    border-color: #06c70d;
+    display: flex;
+    font-size: 28px;
+    font-family: "B Nazanin";
+    padding: 0;
+}
+
+.ulp li {
+    flex-grow: 1;
+    border-bottom: 7px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+}
+
+.ulp a:hover {
+    background-color: #333;
+    color: #2ffa2f;
+}
+
+.container2 {
+    background: url(1.jpg) no-repeat center center/cover;
+}
+
+#hedr img {
+    width: 200px;
+    height: 100px;
+}
+
+.container3 {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment p {
+    margin: 0;
+    font-size: 22px;
+    color: #555;
+}
+
+.comment span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 22%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+#hed{
+    color: rgb(27, 126, 101);
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #00885b;
+    font-family: 'B Nazanin';
+}
+.project{
+    color: #34495e;
+}
+
+#kh {
+    color: #6c0909;
+    font-size: 30px;
+}
+
+#fot p {
+    font-size: 1em;
+    color: #8db822;
+}
+
+.namonekar {
+    background-color: #333;
+}
+nav{
+    font-size: px;
+}
+#hed{
+    font-size:4.5em;
+}
+@media screen 
+
+
